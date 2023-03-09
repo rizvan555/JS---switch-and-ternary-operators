@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#main-section {
+  display: flex;
+  flex-direction: column;
+  margin: 30vh 30vw;
+  border-radius: 5px;
+  justify-content: center;
+  padding: 30px;
+  width: 40vw;
+  background-color: grey;
+  font-size: 1.6rem;
+}
+.search-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 5vh;
+}
+.search-input {
+  width: 30vw;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+}
+button {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  width: 10vw;
+}
+button:hover {
+  background-color: #e3e3e3;
+  font-weight: bold;
+}

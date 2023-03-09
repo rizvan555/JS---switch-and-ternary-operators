@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  padding-top: 20vh;
+  gap: 5px;
+}
+input {
+  width: 20vw;
+}
+button {
+  width: 10vw;
+}
+#reply {
+  margin-left: 30vw;
+  margin-top: 2vh;
+}
