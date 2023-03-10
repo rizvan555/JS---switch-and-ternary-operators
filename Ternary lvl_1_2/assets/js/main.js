@@ -8,5 +8,5 @@ function checker() {
 
   const reply = password.length >= 8 ? positive : negative;
 
-  article.innerHTML = "<span>" + reply + "</span>";
+  article.innerHTML = reply;
 }
